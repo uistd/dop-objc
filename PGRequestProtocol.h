@@ -12,12 +12,12 @@
 /**
  * 接口在api gateway 上注册的方法名
  */
-@property (nonatomic, readonly) NSString* API_GATEWAY_METHOD;
+@property (nonatomic, readonly, class) NSString* API_GATEWAY_METHOD;
 
 /**
  * 接口在api gateway 上注册的地址
  */
-@property (nonatomic, readonly) NSString* API_GATEWAY_URI;
+@property (nonatomic, readonly, class) NSString* API_GATEWAY_URI;
 
 /**
  * 输出NSDictionary
