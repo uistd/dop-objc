@@ -20,6 +20,11 @@
 @property (nonatomic, readonly, class) NSString* API_GATEWAY_URI;
 
 /**
+ * 接口返回的模型名
+ */
+@property (nonatomic, readonly, class) Class API_RESPONSE_CLASS;
+
+/**
  * 输出NSDictionary
  */
 - (NSDictionary *)dictionaryEncode;
